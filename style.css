@@ -1,11 +1,41 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 100px;
-    background-color: brown;
+    font-size: 24px;
+    background-color: wheat;
+    margin: 5% 7% 10%;
 }
 h1{
     text-align: center;
-    color: blue;
-    background-color: aliceblue;
+    color: black;
     font-size: 24px;
+    border-style: dashed;
+
+}
+p{
+    text-align: center;
+    font-family: "JetBrains Mono", sans-serif;
+    font-size: 20px;
+    color: black;
+    margin: 5% 10% 10%;
+}
+ol{
+    text-align: left;
+    font-family: "JetBrains Mono", sans-serif;
+    font-size: 20px;
+    color: black;
+    margin: 5% 10% 10%;
+}
+ul{
+    text-align: left;
+    font-family: "JetBrains Mono", sans-serif;
+    font-size: 20px;
+    color: black;
+    margin: 5% 10% 10%;
+}
+a{
+    text-align: center;
+    font-family: "JetBrains Mono", sans-serif;
+    font-size: 20px;
+    color: black;
+    margin: 5% 10% 10%;
 }

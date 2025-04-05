@@ -1,41 +1,101 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "JetBrains Mono", sans-serif;
     font-size: 24px;
-    background-color: wheat;
+    color: whitesmoke;
+    background-color: #000e;
     margin: 5% 7% 10%;
+}
+p,
+a,
+ul,
+ol{
+    margin: 2% 5%;
+}
+.light-mode{
+    background-color: #ff80;
+    color: black;
+}
+.theme-toggle{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+}
+.theme-toggle img{
+    width: 40px;
+    height: 40px;
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+.light-mode a{
+    color: black;
+}
+
+.foto-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.foto-perfil{
+    width: 160px;
+    height: auto;
+    border-radius: 60px;
+}
+.container-interesses{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container-tecnologias{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container-refs{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding: 12px;
+
 }
 h1{
     text-align: center;
-    color: black;
+    font-size: 36px;
+}
+h2{
+    text-align: center;
     font-size: 24px;
-    border-style: dashed;
-
 }
 p{
     text-align: center;
     font-family: "JetBrains Mono", sans-serif;
     font-size: 20px;
-    color: black;
-    margin: 5% 10% 10%;
 }
 ol{
     text-align: left;
     font-family: "JetBrains Mono", sans-serif;
     font-size: 20px;
-    color: black;
-    margin: 5% 10% 10%;
 }
 ul{
     text-align: left;
     font-family: "JetBrains Mono", sans-serif;
     font-size: 20px;
-    color: black;
-    margin: 5% 10% 10%;
 }
 a{
     text-align: center;
     font-family: "JetBrains Mono", sans-serif;
     font-size: 20px;
-    color: black;
-    margin: 5% 10% 10%;
+    color: whitesmoke;
+}
+.container-tecnologias,
+.container-interesses,
+.container-refs {
+    margin-top: 20px;
+    padding: 10px;
+}
+.container-refs a:hover img {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }

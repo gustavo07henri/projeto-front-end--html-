@@ -60,6 +60,35 @@ ol{
     padding: 12px;
 
 }
+.container-altered-information{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding: 12px;
+    margin-bottom: 0;
+}
+.meuBotao{
+    background: linear-gradient(45deg, mediumpurple, rebeccapurple);
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: "JetBrains Mono", sans-serif;
+    font-size: 12px;
+    border: none;
+    border-radius: 8px;
+    width: 80px;
+    height: 46px;
+    display: block;
+    margin:  0 auto;
+}
+.meuBotao:hover {
+    background: linear-gradient(45deg, rebeccapurple, mediumpurple);
+}
+.meuBotao:focus{
+    /*cria uma estilização diferente para quando o campo é selecionado */
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+}
 h1{
     text-align: center;
     font-size: 36px;
@@ -92,6 +121,9 @@ a{
 .container-tecnologias,
 .container-interesses,
 .container-refs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     margin-top: 20px;
     padding: 10px;
 }
